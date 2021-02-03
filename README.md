@@ -1,39 +1,18 @@
 # Evaluate LoCs
 Gather and analyze the lines of code across a set of repos.
 
-**THIS IS A DRAFT**
 
-
-This project provides tools to gather and analyze the lines of code for a set of repositories and a
+This project provides a tool to gather and analyze the lines of code for a set of repositories and a
 set of languages over a period of time.
-
-TODO
-The project is structured as follows:
-```
-.
-├── .edmrc-sample               Example rc file.
-├── explore-with-dmenu.sh       Main program.
-├── LICENSE                     License definition.
-├── README.md                   You are here now.
-└── res                         Additional resources.
-```
 
 
 ## How it Works
-The lines of code may be gathered via the cli tool `cloc` in combination with a `cron` job.
-
-## Installation
-TODO
+Gather the lines of code e.g. via the cli tool `cloc` in combination and a `cronjob` or in
+combination with git.
 
 
 ### Prerequisites & Dependencies
 You need to have a running version of `Python 3`, `Jupyter`, `Pandas`, `Matplotlib` and `Seaborn`.
-
-TODO elaborate how to install this.
-
-
-## Running
-TODO
 
 
 ## Customizing
